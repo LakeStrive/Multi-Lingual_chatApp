@@ -1,0 +1,151 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.chat-app {
+    height: 100vh;
+    display: flex;
+    background: lightgray;
+}
+
+.left-view {
+    height: 100%;
+    width: 15%;
+    background: aliceblue;
+    display: flex;
+    justify-content: center;
+}
+
+.right-view {
+    width: 100%;
+    background: rgb(104, 97, 97);
+    height: 100%;
+}
+
+.chat-window {
+    height: 80%;
+    width: 100%;
+    overflow: auto;
+    background-image: url(https://play-lh.googleusercontent.com/SZ97RCEv5EVH6iMCDIdHeGJM_BNyHYcnRQ4EdK4V_VyVxLlQS8GY1U3xB8atEBH55OM);
+}
+
+.chat {
+    color: white;
+    min-height: 30px;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 15px;
+    width: 250px;
+    clear: both;
+    word-break: break-all;
+}
+
+.left {
+    background: #2c3e50;
+    display: flex;
+    align-items: center;
+}
+img {
+    align-content: center;
+    border-radius: 50%;
+    padding: 2px;
+    border-color: green;
+    position: absolute;
+    border: 10px solid #14e359;
+    max-width: 125px;
+    max-height: 125px;
+    flex-direction: column;
+  }
+.right {
+    background: #9b59b6;
+    display: flex;
+    align-items: center;
+    float: right;
+}
+
+.join {
+    background: #2a3a4b;
+    width: 80%;
+    margin: auto;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.leave {
+    background: #c2594e;
+    width: 80%;
+    margin: auto;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chat-input-box {
+    height: 10%;
+    background: #34495e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border-top: 1px solid lightgray; */
+}
+
+.chat-input-box input {
+    height: 60%;
+    width: 85%;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    /* font-size: 1.2rem; */
+    padding: 15px;
+    background: #2c3e50;
+    color: white;
+}
+.menu-options{
+text-align: center;
+height: 10%;
+
+width: 100%;
+
+background: #2a3a4b;
+}
+
+.typing-status{
+
+padding: 12px;
+
+font-size: 20px;
+}
+.select-language{
+
+width: 10%;
+
+background: lightgrey;
+}
+#mySelect{width: 5%;background: repeat-x;margin-right: 10px;}
+#send{
+    padding:20px;
+}
+.user-name{
+    
+top: 50px;
+    
+margin-top: 150px;
+}
+.dot {
+    height: 10px;
+    width: 10px;
+    background-color: #14e359;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: 155px;
+    margin-left: 5px;
+  }
+  .h1{
+      
+  }

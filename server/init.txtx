@@ -1,0 +1,10 @@
+npm init -y
+npm i express nodemon // this installs two pacckages express and nodemon
+
+
+  "start": "nodemon app.js"
+  in package.json
+
+  npm i socket.io
+
+  //use npm start to start at local host:4000
