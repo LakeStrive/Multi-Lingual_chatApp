@@ -11,13 +11,6 @@
     background: lightgray;
 }
 
-.left-view {
-    height: 100%;
-    width: 15%;
-    background: aliceblue;
-    display: flex;
-    justify-content: center;
-}
 
 .right-view {
     width: 100%;
@@ -109,43 +102,19 @@ img {
 .menu-options{
 text-align: center;
 height: 10%;
-
 width: 100%;
-
 background: #2a3a4b;
 }
 
 .typing-status{
-
 padding: 12px;
-
 font-size: 20px;
 }
 .select-language{
-
 width: 10%;
-
 background: lightgrey;
 }
 #mySelect{width: 5%;background: repeat-x;margin-right: 10px;}
 #send{
     padding:20px;
 }
-.user-name{
-    
-top: 50px;
-    
-margin-top: 150px;
-}
-.dot {
-    height: 10px;
-    width: 10px;
-    background-color: #14e359;
-    border-radius: 50%;
-    display: inline-block;
-    margin-top: 155px;
-    margin-left: 5px;
-  }
-  .h1{
-      
-  }
